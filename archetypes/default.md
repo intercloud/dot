@@ -4,4 +4,5 @@ date: {{ .Date }}
 lastmod: {{ .Date }}
 weight: ""
 draft: true
+lab: false
 ---

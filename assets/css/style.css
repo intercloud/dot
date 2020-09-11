@@ -524,6 +524,19 @@ textarea.form-control {
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.1) !important;
 }
 
+.disclaimer p {
+  font-weight: bold;
+  border: inherit;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 15px;
+  display: block;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
 /* single page */
 
 .content * {
@@ -667,6 +680,20 @@ tbody {
 
 .notices.note p::after {
   content: 'Note';
+  position: absolute;
+  top: 2px;
+  color: #fff;
+  left: 2rem;
+}
+
+
+.notices.lab p {
+  border-top: 30px solid #6ab0de;
+  background: #e7f2fa;
+}
+
+.notices.lab p::after {
+  content: 'Technical Preview';
   position: absolute;
   top: 2px;
   color: #fff;

@@ -16,6 +16,14 @@
         </div>
       </div>
       <div class="col-lg-9">
+        {{ if .Params.lab }}
+        <div class="disclaimer">
+          <p>
+            <img style="display:inherit" src='/images/lab-icon-png-17.jpg' width=30>
+            This section only applies on Technical Preview Environment.
+          </p>
+        </div>
+        {{ end }}
         <div class="p-lg-5 p-4 bg-white">
           <h2 class="mb-5">{{ .Title }}</h2>
           {{ if .Content }}
